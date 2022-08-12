@@ -6,7 +6,7 @@
 .index-contents-left {
   height: 100%;
   width: 60px;
-  background-color: gray;
+  border-right: 1px solid lightgray; 
 }
 .index-contents-right {
   height: 100%;
@@ -15,11 +15,10 @@
 .index-contents-right-up {
   height: 120px;
   width: 100%;
-  background-color: white;
+  border-bottom: 1px solid lightgray;
 }
 .index-contents-right-under {
   height: calc(100% - 120px);
   width: 100%;
   overflow: scroll;
-  background-color: rgb(248, 248, 248);
 }
